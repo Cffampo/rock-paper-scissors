@@ -1,32 +1,53 @@
-# Rock Paper Scissors Game 🎮
+# Rock Paper Scissors 🎮
 
-A simple interactive **Rock Paper Scissors** game built using **JavaScript**. This was developed as part of my practice with core programming concepts such as functions, control flow, user input, loops, and basic DOM interaction via the browser console.
+A simple interactive Rock Paper Scissors game built with JavaScript, allowing a user to play 5 rounds against a computer opponent. The game uses browser prompts to collect user input and display the result of each round, including the final score and winner.
 
-## 🔧 Tools & Technologies
-- **JavaScript (Vanilla JS)** – for all the game logic
-- **Browser Prompt/Console** – to interact with the user
-- **VS Code** – development environment
-- **HTML (optional placeholder)** – if integrated into a future UI version
+🌐 **Live Site**: [https://cffampo.github.io/rock-paper-scissors/](https://cffampo.github.io/rock-paper-scissors/)
 
-## 🧠 What I Learned
-- Function creation and modular coding
-- Handling **user input** via `prompt()`
-- Using **Math.random** to simulate computer decisions
-- Managing **program state** with variables (score tracking)
-- Using **loops** (`for`) to repeat rounds of the game
-- Implementing **conditional logic** with nested `if/else` blocks
-- Understanding **scope** (global vs local variables)
+---
 
-## 🕹️ How It Works
-- The game plays **5 rounds**.
-- Each round, the player is prompted to enter `"Rock"`, `"Paper"`, or `"Scissors"`.
-- The computer generates a random choice.
-- The winner of each round is logged in the console, and scores are updated.
-- After 5 rounds, the final winner is declared based on scores.
+## 🛠️ Technologies Used
 
-## 🚀 Future Improvements
-- Add a user-friendly **web interface** (buttons instead of prompt)
-- Keep score visually in the UI
-- Add **animations** and **sound effects**
-- Expand to include best-of-N or unlimited rounds
+- **HTML** – for the page structure  
+- **JavaScript** – core game logic and interactivity using functions, loops, conditionals, and variables  
+- **Git & GitHub** – version control and project hosting  
+- **Prompt & Alert APIs** – used for user input and interaction via browser dialogs  
 
+---
+
+## 🎯 Features
+
+- Play 5 rounds of Rock Paper Scissors against a computer  
+- Randomized computer choices each round  
+- Score tracking for both human and computer players  
+- Outcome alerts after every round and a final game result  
+- Clean, lightweight design ideal for beginner JavaScript practice  
+
+---
+
+## 📚 What I Learned
+
+- How to structure and call functions in JavaScript  
+- How to use `if`, `else if`, and `else` statements for decision making  
+- How to compare strings and handle user input  
+- How to use `for` loops for repeated actions  
+- Working with global variables to manage game state  
+- Using `prompt()` to get user input and `console.log()` / `alert()` to display feedback  
+- How browser-based interactivity works without using HTML buttons or DOM elements  
+- How to deploy a static JavaScript project using GitHub Pages  
+
+---
+
+## 📎 Links
+
+- 🔗 [Live Demo](https://cffampo.github.io/rock-paper-scissors/)  
+- 🧠 [My GitHub](https://github.com/cffampo)  
+
+---
+
+## 💡 Future Improvements
+
+- Replace prompts with clickable buttons for a better user experience  
+- Display score and results directly on the page using HTML and CSS  
+- Add animations and sound effects  
+- Add a replay button at the end of the game  
