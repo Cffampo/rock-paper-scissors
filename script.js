@@ -76,11 +76,11 @@ function playGame() {
     }
 
     if(humanScore > computerScore){
-        console.log("You win!");
+        alert("You win!");
     } else if(humanScore < computerScore){
-        console.log("You lose!");
+        alert("You lose!");
     } else {
-        console.log("It's a tie!")
+        alert("It's a tie!");
     }
 }
 playGame();
